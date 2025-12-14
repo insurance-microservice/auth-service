@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: auth
+
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/insurance_db
+    username: db_user
+    password: secret4321!!
+
+server:
+  port: 8079
+
+jwt:
+  secret: 9f3c7a2e6d8b4f1a5c0e9d7b2a6f8c4e
+  expiration: 3600000
