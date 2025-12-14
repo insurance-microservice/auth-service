@@ -11,3 +11,8 @@ spring:
 jwt:
   secret: 7e4c9b2a1f8d6c0e5a3b9d4f2c8e7a6b1d0f9c5e4a8b7d6c2f3e9a5b4
   expiration: 3600000
+
+admin:
+  username: admin
+  email: admin@local.prod
+  password: admin321

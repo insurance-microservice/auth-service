@@ -14,3 +14,8 @@ server:
 jwt:
   secret: 9f3c7a2e6d8b4f1a5c0e9d7b2a6f8c4e
   expiration: 3600000
+
+admin:
+  username: admin
+  email: admin@local.dev
+  password: admin123
